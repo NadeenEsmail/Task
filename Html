@@ -1,52 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <style>
-      *{
-        background-color: pink;
-      }
-      h1{
-        text-align: center;
-      }
-      h2{
-        text-align: center;
-      }
-      h3{
-        text-align: center;
-      }
-    </style>
-    
-  </head>
-  <body>
-    <h1><u>Header1</u></h1>
-    <h2><u>Header2</u></h2>
-    <h3><u>Header2</u></h3>
-    <hr>
-    <h4><u>Content</u></h4>
-    <ul>
-      <li>First item</li>
-      <li>Second item
-        <ol type="I">
-          <li>first category</li>
-          <li>second category</li>
-          <li>third category</li>
-          <li>fourth category</li>
-        </ol>
-      </li>
-      <li>Third item</li>
-      <li>Fourth item</li>
-    </ul>
-    <hr>
-    <h4>here many text formatting can be added like</h4>
-<ol>
-  <li><b>bold</b></li>
-  <li><u>underline</u></li>
-  <li><italic>bold</italic></li>
-  <li><font size="+2">Different fonts</font></li>
-  <li><font size="-1">Different size and</font></li>
-  <li><font color="Red">different color</font></li>
-</ol>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="Css/login.css">
+       
+    </head>
+    <body>
+        
+        <div class="container">
 
-  </body>
+        
+        <form>
+            <div class="log">
+                <label>Log In</label>
+            </div>
+            <br>
+            <div>
+                <label>User Name</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password">
+            </div>
+            <div>
+                <label for=" Location">Select Your Location</label>
+                <select name="location" id="location">
+                    <option value="1">Egypt</option>
+                    <option value="2">Albania</option>
+                    <option value="3">Algeria</option>
+                    
+                </select>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Remember Me</label>
+            </div>
+            
+            <input type="submit" value="Login">
+        </form>
+        </div>
+    </body>
 </html>
